@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areli Travel & Tours</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <!--===============SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--=============== Font Awesome ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="noopener noreferrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">ARELI<span> Travel & Tours</span> </a>
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>    
+        </form>
+    </header>
+    
+    <!--==================== HEADER END ====================-->
+
+    <!--==================== LOGIN FORM CONTAINER ====================-->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+
+    <!--==================== HOME SECTION START ====================-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is worthwhile</h3>
+            <p>Discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">Discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="assets/video/vid_1.mp4"></span>
+            <span class="vid-btn" data-src="assets/video/vid_2.mp4"></span>
+            <span class="vid-btn" data-src="assets/video/vid_3.mp4"></span>
+            <span class="vid-btn" data-src="assets/video/vid_4.mp4"></span>
+            <span class="vid-btn" data-src="assets/video/vid_5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="assets/video/vid_1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!--==================== HOME SECTION END ====================-->
+
+    <!--==================== BOOK SECTION STARTS ====================-->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="assets/img/pack-img.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="Place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How many</h3>
+                    <input type="number" placeholder="Number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Book now">
+            </form>
+        </div>
+    </section>
+    <!--==================== BOOK SECTION END ====================-->
+
+    <!--==================== PACKAGES SECTION STARTS ====================-->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/img/kandy.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Kandy</h3>
+                    <p>Rich cultural experience with its stunning heritage & beautiful scenery</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$275.00 <span>$350.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/sigiriya-rock.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sigiriya</h3>
+                    <p>An ancient rock fortress, breathtaking experience with its panoramic views</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$250.00 <span>$400.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/ella-city.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Ella</h3>
+                    <p>Lush tea plantations, stunning waterfalls, and scenic hikes to Ella Rock</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$420.00 <span>$600.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/mirissa1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Mirissa</h3>
+                    <p>A perfect paradise for a beach lover, clean beach and star hotels and resorts</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$300.00 <span>$400.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/apura.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Anuradhapura</h3>
+                    <p>First kingdom of Sri Lanka, enchants with its ancient stupas, well-preserved ruins</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$225.00 <span>$320.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/arugambay.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Arugam Bay</h3>
+                    <p>Attracts with its world-class surfing waves, pristine beaches, and laid-back atmosphere</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$375.00 <span>$575.00</span></div>
+                    <a href="#" class="btn">Book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== PACKAGES SECTION END ====================-->
+
+    <!--==================== SERVICES SECTION STARTS ====================-->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable hotels</h3>
+                <p>Budget-friendly accommodations without compromising on essential amenities and comfort. Ideal for travelers seeking value, offering clean and comfortable rooms, often with complimentary services.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food & beverages</h3>
+                <p>Diverse range of food and beverage options to cater to varying tastes and preferences. Menus highlight both local and international cuisines, with bars and lounges offering a selection of beverages.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety guide</h3>
+                <p>Comprehensive safety guides to ensure the well-being and security of guests. These guides include information on emergency procedures, such as evacuation routes and assembly points, clearly marked and available in every room.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the world</h3>
+                <p>Destinations around the world offer a rich tapestry of experiences, catering to every type of traveler. From the historical grandeur of Rome to the vibrant cultural mosaic of Tokyo.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest travel</h3>
+                <p>Offering the fastest travel services with expedited booking and streamlined travel arrangements for clients seeking efficiency and convenience. Quick flight bookings with priority seating and fast-track security clearance.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>Specializing in adventure tour arrangements for thrill-seekers with meticulously planned, adrenaline-pumping experiences. Action-packed itineraries, from trekking through remote mountain ranges to white-water rafting on turbulent rivers.</p>
+            </div>
+        </div>
+    </section>
+    <!--==================== SERVICES SECTION END ====================-->
+
+    <!--==================== GALLERY SECTION STARTS ====================-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/img/place1.jpg" alt="">
+                <div class="content">
+                    <h3>Portugal</h3>
+                    <p>Lisbon and Porto may get a lot of love, but there's so much more to Portugal than its captivating historic cities.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place2.jpg" alt="">
+                <div class="content">
+                    <h3>Maldives</h3>
+                    <p>Unbeatable beaches, unmatched luxury, and a very happening underwater world make Maldives worth it all!</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place3.jpg" alt="">
+                <div class="content">
+                    <h3>Greece</h3>
+                    <p>Home to the world's most important historical sites, along with some 6,000 islands, Greece is known for its natural beauty.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place4.jpg" alt="">
+                <div class="content">
+                    <h3>China</h3>
+                    <p>One of China's most famous treks, this 22km (14-mile) hiking trail winds through a World Heritage-listed gorge in Yunnan.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place5.jpg" alt="">
+                <div class="content">
+                    <h3>France</h3>
+                    <p>Elegant Paris, with its Haussmann boulevards and world-class art museums, is a heartthrob at any time of year.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place6.jpg" alt="">
+                <div class="content">
+                    <h3>England</h3>
+                    <p>England's history stretches back more than 5,000 years. It's impossible to escape the past here.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place7.jpg" alt="">
+                <div class="content">
+                    <h3>Italy</h3>
+                    <p>Besides its art treasures, Italy also features beautiful coasts. No wonder it is often nicknamed the "Bel Paese".</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place8.jpg" alt="">
+                <div class="content">
+                    <h3>USA</h3>
+                    <p>Even if you've never visited the United States, the country's attractions need no introduction.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/img/place9.jpg" alt="">
+                <div class="content">
+                    <h3>Sweden</h3>
+                    <p>With its rich history and varied landscapes, Sweden is a traveler's paradise and a photographer's dream.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== GALLERY SECTION END ====================-->
+
+    <!--==================== REVIEW SECTION STARTS ====================-->
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+       
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                         <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="assets/img/person1.jpg" alt="" class="card-img">
+                            </div>
+                         </div>
+                         <div class="card-content">
+                            <h2 class="name">David Sao</h2>
+                            <p class="description">"I had an amazing experience with Areli Travel & Tours. Their quick service and attention to detail ensured everything went smoothly. I'll definitely be using their services for my next.."</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                           <span class="overlay"></span>
+                           <div class="card-image">
+                               <img src="assets/img/person2.jpeg" alt="" class="card-img">
+                           </div>
+                        </div>
+                        <div class="card-content">
+                           <h2 class="name">Emily Schofield</h2>
+                           <p class="description">"Areli Travel & Tours exceeded all my expectations! The staff was incredibly friendly and helpful throughout the entire booking process. They made my travel planning...."</p>
+                           <button class="btn">View More</button>
+                       </div>
+                   </div>
+
+                   <div class="card swiper-slide">
+                    <div class="image-content">
+                       <span class="overlay"></span>
+                       <div class="card-image">
+                           <img src="assets/img/person3.jpeg" alt="" class="card-img">
+                       </div>
+                    </div>
+                    <div class="card-content">
+                       <h2 class="name">Michael Boschovik</h2>
+                       <p class="description">"The team at Areli Travel & Tours was fantastic! They helped me plan a dream vacation, and their expertise made all the difference. The service was top-notch."</p>
+                       <button class="btn">View More</button>
+                   </div>
+               </div>
+
+               <div class="card swiper-slide">
+                <div class="image-content">
+                   <span class="overlay"></span>
+                   <div class="card-image">
+                       <img src="assets/img/person4.jpeg" alt="" class="card-img">
+                   </div>
+                </div>
+                <div class="card-content">
+                   <h2 class="name">Sanjaya Guptha</h2>
+                   <p class="description">"I was thoroughly impressed with Areli Travel & Tours. Their friendly staff and quick response times made planning my trip a breeze. I had a wonderful vacation thanks..."</p>
+                   <button class="btn">View More</button>
+               </div>
+           </div>
+
+           <div class="card swiper-slide">
+            <div class="image-content">
+               <span class="overlay"></span>
+               <div class="card-image">
+                   <img src="assets/img/person5.jpeg" alt="" class="card-img">
+               </div>
+            </div>
+            <div class="card-content">
+               <h2 class="name">Laura Pablovika</h2>
+               <p class="description">"Traveling with Areli Travel & Tours was a delight! The staff was always ready to assist and went above and beyond to ensure my trip was memorable. Their professionalism."</p>
+               <button class="btn">View More</button>
+           </div>
+       </div>
+
+       <div class="card swiper-slide">
+        <div class="image-content">
+           <span class="overlay"></span>
+           <div class="card-image">
+               <img src="assets/img/person6.jpeg" alt="" class="card-img">
+           </div>
+        </div>
+        <div class="card-content">
+           <h2 class="name">Timothy Holand</h2>
+           <p class="description">"Areli Travel & Tours provided exceptional service. They listened to my needs and crafted a perfect itinerary. The whole process was seamless, and I couldn't be happier."</p>
+           <button class="btn">View More</button>
+       </div>
+   </div>
+
+   <div class="card swiper-slide">
+    <div class="image-content">
+       <span class="overlay"></span>
+       <div class="card-image">
+           <img src="assets/img/person7.jpeg" alt="" class="card-img">
+       </div>
+    </div>
+    <div class="card-content">
+       <h2 class="name">Sara G. Lopez</h2>
+       <p class="description">"Areli Travel & Tours provided exceptional service. They listened to my needs and crafted a perfect itinerary. The whole process was seamless, and I couldn't be happier."</p>
+       <button class="btn">View More</button>
+   </div>
+</div>
+
+<div class="card swiper-slide">
+    <div class="image-content">
+       <span class="overlay"></span>
+       <div class="card-image">
+           <img src="assets/img/person8.jpeg" alt="" class="card-img">
+       </div>
+    </div>
+    <div class="card-content">
+       <h2 class="name">Christian Butler</h2>
+       <p class="description">"I highly recommend Areli Travel & Tours for anyone looking to travel. Their quick service and friendly demeanor made all the difference. They truly care about their clients."</p>
+       <button class="btn">View More</button>
+   </div>
+</div>
+
+<div class="card swiper-slide">
+    <div class="image-content">
+       <span class="overlay"></span>
+       <div class="card-image">
+           <img src="assets/img/person9.jpg" alt="" class="card-img">
+       </div>
+    </div>
+    <div class="card-content">
+       <h2 class="name">Suman Balraman</h2>
+       <p class="description">"Areli Travel & Tours is the best travel agency I've ever worked with. The staff was incredibly friendly, and their quick service ensured that all my travel arrangements were handled...."</p>
+       <button class="btn">View More</button>
+   </div>
+</div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <!--==================== REVIEW SECTION END ====================-->
+
+    <!--==================== CONTACT SECTION STARTS ====================-->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="assets/img/book-img.png" alt="Book Image">
+            </div>
+
+            <form action="" method="post">
+                <div class="inputBox">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" name="number" placeholder="Number" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+
+                <textarea name="message" placeholder="Message" cols="30" rows="10" required></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+    </section>
+    <!--==================== CONTACT SECTION END ====================-->
+
+    <!--==================== FOOTER SECTION STARTS ====================-->
+    <section class="footer">
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="assets/img/logo2.png" class="logo" alt="Areli Travel & Tours Logo">
+                    <p>Areli T & T is your gateway to unforgettable adventures. We are passionate about crafting dream vacations that exceed expectations and ignite your wanderlust. More than just a travel agency, we are a team of travel enthusiasts with a wealth of experience and a genuine desire to help you discover the world.</p>
+                </div>
+
+                <div class="col">
+                    <h3>OFFICE <div class="underline"><span></span></div></h3>
+                    <p>No: 23, Sri Parakumba Mawatha</p>
+                    <p>Kotte Road, Ethul Kotte</p>
+                    <p>10100, Sri Lanka</p>
+                    <p class="email-id">info@arelitravel.com</p>
+                    <h4>+94 112 235 645</h4>
+                </div>
+
+                <div class="col">
+                    <h3>LINKS <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#book">Book</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#review">Review</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>NEWSLETTER <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Web Design By Bangcool © 2024 - All Rights Reserved</p>
+        </footer>
+    </section>
+    <!--==================== FOOTER SECTION END ====================-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- SWIPER JS FILE LINK -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- CUSTOM JS FILE LINK -->
+    <script src="js/script.js"></script>
+</body>
+</html>
